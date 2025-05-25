@@ -1,0 +1,114 @@
+html body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 150vh;
+    gap: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196, 196, 196);
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+
+
+}
+
+
+header {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    padding: 20px 0 10px 0;
+}
+
+.horlogedigital {
+    margin: 40px auto 0 auto;
+    width: fit-content;
+    padding: 32px 60px;
+    background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+    border-radius: 28px;
+    box-shadow: 0 6px 32px rgba(52, 152, 219, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border: 1.5px solid #b3c6e0;
+    transition: background 0.5s, box-shadow 0.5s;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#time {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #3498db;
+    letter-spacing: 4px;
+    text-shadow: 0 2px 12px rgba(52, 152, 219, 0.13);
+    margin-bottom: 4px;
+    transition: color 0.5s;
+}
+
+#date {
+    font-size: 1.3rem;
+    color: #16a085;
+    margin-top: 0;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    transition: color 0.5s;
+}
+
+/* Bloc citation */
+.blockcitation {
+    margin: 50px auto 0 auto;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(46, 204, 113, 0.10);
+    padding: 40px 30px;
+    text-align: center;
+    transition: background 0.5s;
+}
+
+.blockcitation p {
+    font-size: 1.4rem;
+    color: #222;
+    margin-bottom: 18px;
+    font-style: italic;
+}
+
+.blockcitation h2 {
+    font-size: 1.1rem;
+    color: #16a085;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+#random {
+    background: linear-gradient(90deg, #3498db 0%, #2ecc71 100%);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 32px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(52, 152, 219, 0.10);
+    transition: background 0.3s, transform 0.2s;
+}
+
+#random:hover {
+    background: linear-gradient(90deg, #2ecc71 0%, #3498db 100%);
+    transform: scale(1.05);
+}
